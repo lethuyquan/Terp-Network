@@ -24,19 +24,13 @@ source .profile
 ```
 
 Node Installation
-
-Node Name
-
-Your Node Name
-Port prefix
-
-266
-# Clone project repository
+**Clone project repository**
+```
 cd && rm -rf terp-core
 git clone https://github.com/terpnetwork/terp-core.git
 cd terp-core
 git checkout v4.2.2
-
+```
 # Build binary
 make install
 
