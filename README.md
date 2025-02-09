@@ -31,8 +31,11 @@ git clone https://github.com/terpnetwork/terp-core.git
 cd terp-core
 git checkout v4.2.2
 ```
-# Build binary
+
+**Build binary**
+```
 make install
+```
 
 # Prepare cosmovisor directories
 mkdir -p $HOME/.terp/cosmovisor/genesis/bin
