@@ -37,9 +37,11 @@ git checkout v4.2.2
 make install
 ```
 
-# Prepare cosmovisor directories
+**Prepare cosmovisor directories**
+```
 mkdir -p $HOME/.terp/cosmovisor/genesis/bin
 ln -s $HOME/.terp/cosmovisor/genesis $HOME/.terp/cosmovisor/current -f
+```
 
 # Copy binary to cosmovisor directory
 cp $(which terpd) $HOME/.terp/cosmovisor/genesis/bin
