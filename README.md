@@ -43,8 +43,10 @@ mkdir -p $HOME/.terp/cosmovisor/genesis/bin
 ln -s $HOME/.terp/cosmovisor/genesis $HOME/.terp/cosmovisor/current -f
 ```
 
-# Copy binary to cosmovisor directory
+**Copy binary to cosmovisor directory**
+```
 cp $(which terpd) $HOME/.terp/cosmovisor/genesis/bin
+```
 
 # Set node CLI configuration
 terpd config chain-id morocco-1
