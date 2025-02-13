@@ -48,10 +48,12 @@ ln -s $HOME/.terp/cosmovisor/genesis $HOME/.terp/cosmovisor/current -f
 cp $(which terpd) $HOME/.terp/cosmovisor/genesis/bin
 ```
 
-# Set node CLI configuration
+**Set node CLI configuration**
+```
 terpd config chain-id morocco-1
 terpd config keyring-backend file
 terpd config node tcp://localhost:26657
+```
 
 # Initialize the node
 terpd init "Your Node Name" --chain-id morocco-1
