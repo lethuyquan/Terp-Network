@@ -55,8 +55,10 @@ terpd config keyring-backend file
 terpd config node tcp://localhost:26657
 ```
 
-# Initialize the node
+**Initialize the node**
+```
 terpd init "Your Node Name" --chain-id morocco-1
+```
 
 # Download genesis and addrbook files
 curl -L https://snapshots.nodejumper.io/terp/genesis.json > $HOME/.terp/config/genesis.json
