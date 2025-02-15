@@ -60,9 +60,11 @@ terpd config node tcp://localhost:26657
 terpd init "Your Node Name" --chain-id morocco-1
 ```
 
-# Download genesis and addrbook files
+**Download genesis and addrbook files**
+```
 curl -L https://snapshots.nodejumper.io/terp/genesis.json > $HOME/.terp/config/genesis.json
 curl -L https://snapshots.nodejumper.io/terp/addrbook.json > $HOME/.terp/config/addrbook.json
+```
 
 # Set seeds
 sed -i -e 's|^seeds *=.*|seeds = "d8256642afae77264bcce1631d51233a9d00249b@terp-mainnet-seed.itrocket.net:13656,5f5cfac5c38506fbb4275c19e87c4107ec48808d@seeds.nodex.one:10410,8542cd7e6bf9d260fef543bc49e59be5a3fa9074@seed.publicnode.com:26656,a81dc3bf1bb1c3837b768eeb82659eecc971890b@terp-mainnet-peer.itrocket.net:13656"|' $HOME/.terp/config/config.toml
