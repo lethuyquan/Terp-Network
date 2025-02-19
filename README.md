@@ -76,12 +76,14 @@ sed -i -e 's|^seeds *=.*|seeds = "d8256642afae77264bcce1631d51233a9d00249b@terp-
 sed -i -e 's|^minimum-gas-prices *=.*|minimum-gas-prices = "0uterp"|' $HOME/.terp/config/app.toml
 ```
 
-# Set pruning
+**Set pruning**
+```
 sed -i \
   -e 's|^pruning *=.*|pruning = "custom"|' \
   -e 's|^pruning-keep-recent *=.*|pruning-keep-recent = "100"|' \
   -e 's|^pruning-interval *=.*|pruning-interval = "17"|' \
   $HOME/.terp/config/app.toml
+```
 
 # Enable prometheus
 sed -i -e 's|^prometheus *=.*|prometheus = true|' $HOME/.terp/config/config.toml
