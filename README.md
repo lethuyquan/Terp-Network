@@ -85,8 +85,10 @@ sed -i \
   $HOME/.terp/config/app.toml
 ```
 
-# Enable prometheus
+**Enable prometheus**
+```
 sed -i -e 's|^prometheus *=.*|prometheus = true|' $HOME/.terp/config/config.toml
+```
 
 # Download latest chain data snapshot
 curl "https://snapshots.nodejumper.io/terp/terp_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.terp"
