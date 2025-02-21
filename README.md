@@ -89,9 +89,10 @@ sed -i \
 ```
 sed -i -e 's|^prometheus *=.*|prometheus = true|' $HOME/.terp/config/config.toml
 ```
-
-# Download latest chain data snapshot
+**Download latest chain data snapshot**
+```
 curl "https://snapshots.nodejumper.io/terp/terp_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.terp"
+```
 
 # Install Cosmovisor
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.7.0
