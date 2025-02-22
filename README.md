@@ -94,8 +94,10 @@ sed -i -e 's|^prometheus *=.*|prometheus = true|' $HOME/.terp/config/config.toml
 curl "https://snapshots.nodejumper.io/terp/terp_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.terp"
 ```
 
-# Install Cosmovisor
+**Install Cosmovisor**
+```
 go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.7.0
+```
 
 # Create a service
 sudo tee /etc/systemd/system/terp.service > /dev/null << EOF
