@@ -1,8 +1,9 @@
-Hardware Requirements
-
+**Hardware Requirements**
 Minimum
-
+```
 3CPU 4RAM 80GB
+```
+
 Recommended
 
 4CPU 8RAM 160GB
