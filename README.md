@@ -207,3 +207,4 @@ sudo hostnamectl set-hostname YOUR_SERVERNAME
 **now you can logout (exit) and login again using ssh admin@YOUR_SERVER_IP**
 
 Add project introduction
+Add feature summary
