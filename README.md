@@ -209,3 +209,4 @@ sudo hostnamectl set-hostname YOUR_SERVERNAME
 Add project introduction
 Add feature summary
 Add system requirements
+Add installation instructions
