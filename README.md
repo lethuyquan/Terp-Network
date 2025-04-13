@@ -210,3 +210,4 @@ Add project introduction
 Add feature summary
 Add system requirements
 Add installation instructions
+Add quick start guide
