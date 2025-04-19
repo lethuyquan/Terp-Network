@@ -212,3 +212,4 @@ Add system requirements
 Add installation instructions
 Add quick start guide
 Document configuration file setup
+Add environment variable examples
