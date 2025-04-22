@@ -213,3 +213,4 @@ Add installation instructions
 Add quick start guide
 Document configuration file setup
 Add environment variable examples
+Add versioning strategy guide
