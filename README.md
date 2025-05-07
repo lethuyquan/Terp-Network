@@ -218,3 +218,4 @@ Add rollback procedure guide
 Add security best practices
 Add contributing guidelines
 Add code of conduct
+Add FAQ for users
